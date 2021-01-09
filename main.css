@@ -1,0 +1,46 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1.5rem auto;
+    max-width: 800px;
+    background-color: rgb(190, 245, 245);
+    font-family: "constantia";
+    
+}
+
+header, footer {
+    background-color: darkslategray;
+    color: whitesmoke;
+    text-align:center;
+    padding: 12px;
+    border-radius: 8px;
+    
+}
+ul li a:hover {
+    color: rgb(2, 116, 116);
+}
+
+img {
+    max-width: 225px;
+    border: 6px solid teal;
+    margin: 24px 0px 24px;
+    float: right;
+}
+
+#updated {
+    font-size: 14px;
+    color: yellow;
+}
+
+footer a {
+    color: whitesmoke;
+    
+}
+
+footer a:visited {
+    color:violet;
+}
+
+footer a:hover {
+    color:  rgb(190, 245, 245);
+    }
