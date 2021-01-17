@@ -1,6 +1,6 @@
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	font-family: "Roboto", Verdana, sans-serif;
 }
 /* phone or baseline views **************************/
 main {
@@ -11,11 +11,19 @@ main {
     font-size: 0.8rem;
     text-align: center;
 }
+main p{
+    font-family: 'roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
 
 main section h2 {
 	color: #536878;
 }
-
+main section h1 {
+    color: #536878;
+    font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
 main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
