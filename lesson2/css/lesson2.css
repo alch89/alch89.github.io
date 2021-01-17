@@ -26,6 +26,23 @@ main section {
 	box-shadow: 0 0 30px #333;
 }
 
+
+footer {font-style: italic;
+    padding: 6px;
+    line-height: 1.25em;
+    text-align: center;}
+
+    header {
+        background-color: navy;
+        color: white;
+        border: solid black 3px;
+        max-width: 600px;
+        margin: 1.5rem auto;
+        border-radius: 4px;
+        text-align:center;
+    }
+
+
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	main {
