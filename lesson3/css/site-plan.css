@@ -136,3 +136,12 @@ footer {
 		grid-column: span 1;
 	}
 }
+
+
+table, th, td {
+  border: 1px solid black;
+  margin-top: 25px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
