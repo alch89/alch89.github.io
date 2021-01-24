@@ -130,7 +130,7 @@ footer {
 		font-size: 1.1rem;
 	}
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 	article:nth-child(3) {
 		grid-column: span 1;
