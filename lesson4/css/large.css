@@ -2,6 +2,7 @@ body {
 	background-color: #bbb;
 	padding: 0;
 	margin: 0;
+	font-family: Lora, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 	justify-content:center;
 }
 
-
+main{text-align: center;}
 
 .headings {
 	display: flex;
@@ -22,6 +23,7 @@ header {
 .headings h1 {
 	font-size: 1.6rem;
 	margin: 0 0 0 17px;
+	font-family: Montserrat;
 }
 
 .m {
