@@ -12,10 +12,7 @@ header {
 	justify-content:center;
 }
 
-header img {
-	width: 80px;
-	height: auto;
-}
+
 
 .headings {
 	display: flex;
@@ -42,7 +39,10 @@ header img {
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-	
+	header picture img {
+		width: 180px;
+		height: auto;
+	}
 
 	nav button{display: none;}
 nav ul{margin: 2%;}

@@ -6,6 +6,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Small/Phone View ***************/
 
+header picture img {
+    width: 60px;
+    height: auto;
+}
+
 nav button{
 	margin: .2rem 2%;
 	background-color: transparent;
