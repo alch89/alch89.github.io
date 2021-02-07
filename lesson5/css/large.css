@@ -42,7 +42,8 @@ main{text-align: center;max-width: 60em;
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
-	main > section {
+	main > section { max-width: 60em;
+		margin: auto;
 		background-color: #fff;
 		/* border: 2px dotted #999; */
 		box-shadow: 0 1px 1px rgb(0 0 0 / 25%);
