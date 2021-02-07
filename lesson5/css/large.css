@@ -1,0 +1,84 @@
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+	font-family: Lora, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+main{text-align: center;}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+	font-family: Montserrat;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: forestgreen;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+
+/* Larger viewports */
+
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+	footer{text-align: center;}
+
+	header picture img {
+		width: 180px;
+		height: auto;
+	}
+
+	nav button{display: none;}
+nav ul{margin: 2%;}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	border: none;
+	border-right: 1px solid rgba(0,0, 0, 0.3);
+	padding: .6rem 1rem;
+
+}
+
+nav ul.hide{display: block;}
+
+} /*end large */
+
+
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+}
+
+

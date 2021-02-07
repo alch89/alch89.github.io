@@ -1,0 +1,94 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Small/Phone View ***************/
+main{text-align: center;}
+footer{text-align: center;}
+
+header picture img {
+    width: 60px;
+    height: auto;
+}
+
+nav button{
+	margin: .2rem 2%;
+	background-color: transparent;
+	border:none;
+	font-size: 1.6rem;
+	color: #555555;
+
+
+}
+
+nav {
+	
+	background-color: #ccc;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+	}
+
+
+nav ul li a{
+	display: block;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color: #000000;
+	border-top: 1px solid rgb(0, 0,0, 0.3);
+
+}
+/*the active goes first to make the effect to work*/
+nav ul li.active a{background-color: rgb(0, 0,0, 0.2);color: #fff}
+
+nav ul li a:hover{	background-color: rgb(0, 0,0, 0.4);}
+nav ul.hide {display: none;}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+
+
+
+/*.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+
+.responsive li {
+	display: block;
+}
+*/
