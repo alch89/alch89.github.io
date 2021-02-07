@@ -13,7 +13,8 @@ header {
 	justify-content:center;
 }
 
-main{text-align: center;}
+main{text-align: center;max-width: 60em;
+    margin: auto;}
 
 .headings {
 	display: flex;
