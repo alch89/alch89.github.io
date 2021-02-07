@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Preston Site</title>
-  
+    <link rel="shortcut icon" href="/lesson5/images/favicon.ico">
 <!-- STYLE SHEETS -->
 <link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
@@ -38,8 +38,8 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a class="ham" href="#" >🍔 Menu</a></li>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li ><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -48,8 +48,58 @@
         </ul>
     </nav>
     <main>
-        <section id="section1">
-            <h2>Hero image/weather summary</h2>
+<h2> Preston </h2>
+<div class="herodiv">
+    
+    <div class="hero-ph"></div>
+    <section class="weathersummary">
+        <h3>Weather Summary</h3>
+        <p>High:   76 °F </p>
+        <p>Humidity: 69%</p>
+        <p>Wind Speed: 5 mph</p>
+    </section>
+    
+   
+</div>
+
+<section id="fiveday">
+    <h2>5-Day Forecast</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="images/weather-clear.png" alt="Clear weather"><br><span>60 °F</span>
+          </td>
+          <td>
+            <img src="images/weather-few-clouds.png" alt="Cloudy weather"><br><span>50 °F</span>
+          </td>
+          <td>
+            <img src="images/weather-overcast.png" alt="Overcast weather"><br><span>40 °F</span>
+          </td>
+          <td>
+            <img src="images/weather-few-clouds.png" alt="Snowy weather"><br><span>30 °F</span>
+          </td>
+          <td>
+            <img src="images/weather-clear.png" alt="Cloudy weather"><br><span>50 °F</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+        <section id="section1"></section>
+            <h2>Article Title
+            </h2>
+           
         </section>
         <section  id="section2">
             <h2> 5 day forecast</h2>
