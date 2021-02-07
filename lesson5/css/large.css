@@ -51,6 +51,27 @@ main{text-align: center;}
 	section#fiveday table {
 		margin: 0 auto;
 	}
+	section#article img {
+		float: right;
+		margin: 0 1em;
+	}
+	section#contact .flexwrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+	}
+	section#contact p img {
+		vertical-align: middle;
+		margin-right: 0.25em;
+		height: 1.25em;
+		width: auto;
+	}
+	section#contact p {
+		text-align: left;
+		line-height: 1.5;
+		margin: 0.5em;
+	}
 	main .h2{
 		text-align: center;
 		}
