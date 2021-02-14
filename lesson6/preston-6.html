@@ -15,12 +15,12 @@
 <link href="css/large.css" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital,wght@1,500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital,wght@1,500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
     
     
     
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
-  </head>
+  --></head>
 
   <body>
     <header>
@@ -48,25 +48,31 @@
         </ul>
     </nav>
     <main>
-<picture>
-
-  <source media="(max-width: 300px)" srcset="images"
-
-</picture>
-
-<h2> Preston </h2>
-<div class="herodiv">
-    
-    <div class="hero-ph"></div>
-    <section class="weathersummary">
+      <section class="weathersummary">
         <h3>Weather Summary</h3>
         <p>High:   76 °F </p>
         <p>Humidity: 69%</p>
         <p>Wind Speed: 5 mph</p>
     </section>
+<picture class="photoa">
+
+  <source media="(max-width: 300px)" srcset="images/preston300.jpg">
+    <source media="(max-width: 500px)" srcset="images/preston500.jpg">
+      <source media="(max-width: 1200px)" srcset="images/preston800.jpg">
+        <img src="images/preston1800.jpg" alt="largest">  
+        <div> The Weather Site </div>
+
+
+</picture>
+
+<h2> Preston </h2>
+<!-- <div class="herodiv">
+    
+    <div class="hero-ph"></div>
+    
     
    
-</div>
+</div> -->
 
 <section id="fiveday">
     <h2>5-Day Forecast</h2>
@@ -170,10 +176,17 @@
     <footer> © <span id="currentyear">2021</span> | Luis Chavez Velarde | Lima, Peru | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
         <div id="updated">Last Updated: <span id="lastModif"></span></div>
        </footer>
-       <script src="js/currentdate.js"></script>  
-    <script src="js/toggleMenu.js">
 
-    </script>
+       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+       <script src="js/webfontload.js"></script>
+
+       <script src="js/currentdate.js"></script>  
+    <script src="js/toggleMenu.js"></script> 
+    
+
+
+  
+
 
 </body>
 </html>
