@@ -90,10 +90,17 @@ nav ul.hide {display: none;}
 img[data-src] {
 	filter: blur(0.05em);
 }
-img {
+picture img {
 	padding: 2px;
-	filter: blur(0em);
-	transition: filter 2s;
+	filter: blur(0);
+	transition: filter .5s;
+}
+section#gallery {
+    background-color: transparent;
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

@@ -44,14 +44,22 @@ main{text-align: center;max-width: 60em;
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
-	img[data-src] {
+	picture img[data-src] {
 		filter: blur(0.05em);
+		transition: filter .5s;
 	}
-	img {
+	picture img{
 		padding: 2px;
 		border: 1px solid black;
-		filter: blur(0em);
-		transition: filter 2s;
+		filter: blur(0);
+		
+		 
+	}
+	picture img:hover{
+		box-shadow: 0 0 50px #333;
+	}
+	section#gallery {
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	main picture.photoa img, main picture.photob img{width:100%;}
@@ -140,6 +148,11 @@ nav ul li a{
 }
 
 nav ul.hide{display: block;}
+
+main#gallery-page {
+    max-width: 76em;
+	margin: auto;
+}
 
 } /*end large */
 

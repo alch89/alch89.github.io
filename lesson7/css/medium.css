@@ -14,8 +14,17 @@
 		box-shadow: 0 0 30px #777777;
 
 	}
-	img[data-src] {
-		filter: blur(0.05em);
+	picture img[data-src] {
+		filter: blur(10px);
+		transition: filter .5s;
+	}
+	img{
+		filter: blur(0);
+  transition: filter .5s;
+
+	}
+	section#gallery {
+		grid-template-columns: 1fr 1fr;
 	}
 	
 } /*end medium */
