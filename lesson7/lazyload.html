@@ -1,98 +1,34 @@
-<!doctype html>
-<html lang="en-us">
-
-  <head>
-    <meta charset="utf-8">
-    <title>Preston Site</title>
-    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
-<!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
-<!-- phone-default -->
-<link href="css/small.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
-<!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<!-- <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital,wght@1,500&family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    
-    
-    
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
-  --></head>
-
-  <body>
-    <header>
-        <picture>
-            <img src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-05-512.png" alt="The world logo">
-        </picture>
-        <section class="headings">
-            <h1>Laplaza Idaho</h1>
-            <div class="m">Wheater Site</div>
-        </section>
-    </header>
-
-    <!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a class="ham" href="#" >🍔 Menu</a></li>
-            <li ><a href="#">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-             
-        </ul>
-    </nav>
-    <main>
-      <h1>Progressive/Lazy Loading of Images</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Progressive/Lazy Loading </title>
+	<link rel="stylesheet" href="css/lazyload.css">
+</head>
+<body>
+	<h1>Progressive/Lazy Loading of Images</h1>
 	<picture>
-		<img src="https://placeimg.com/300/400/nature" alt="kitten">
+		<img src="https://via.placeholder.com/300x400.jpg?text=Placeholder" data-src="https://placeimg.com/300/400/nature" alt="kitten">
 	</picture>
 
 	<picture>
-		<img src="https://placekitten.com/300/400" alt="nature">
+		<img src="https://via.placeholder.com/300x400.jpg?text=Placeholder" data-src="https://placekitten.com/300/400" alt="nature">
 	</picture>
 
 	<picture>
-		<img src="https://placekitten.com/300/400" alt="kitten">
+		<img src="https://via.placeholder.com/300x400.jpg?text=Placeholder" data-src="https://placekitten.com/300/400" alt="kitten">
 	</picture>
 
 	<picture>
-		<img src="https://placeimg.com/300/400/nature" alt="kitten">
+		<img src="https://via.placeholder.com/300x400.jpg?text=Placeholder" data-src="https://placeimg.com/300/400/nature" alt="kitten">
 	</picture>
 
 	<picture>
-		<img src="https://placeimg.com/300/400/tech" alt="kitten">
+		<img src="https://via.placeholder.com/300x400.jpg?text=Placeholder" data-src="https://placeimg.com/300/400/tech" alt="kitten">
 	</picture>
 
 	<picture>
-		<img src="https://placeimg.com/300/400/people" alt="kitten">
+		<img src="https://via.placeholder.com/300x400.jpg?text=Placeholder" data-src="https://placeimg.com/300/400/people" alt="kitten">
 	</picture>
-    
-        
-        
-    </main>
-    <script src="js/lazyload.js"></script>
-    <footer> © <span id="currentyear">2021</span> | Luis Chavez Velarde | Lima, Peru | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
-        <div id="updated">Last Updated: <span id="lastModif"></span></div>
-       </footer>
-
-       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-      
-       <script src="js/webfontload.js"></script>
-
-       <script src="js/currentdate.js"></script>  
-    <script src="js/toggleMenu.js"></script> 
-    <script src="js/windchill.js"></script>
-    
-
-
-  
-
-
+	<script src="js/lazyload.js"></script>
 </body>
 </html>
