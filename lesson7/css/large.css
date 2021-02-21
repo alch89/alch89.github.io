@@ -4,9 +4,7 @@ body {
 	margin: 0;
 	font-family: Lora, Geneva, Tahoma, sans-serif;
 }
-img[data-src] {
-	filter: blur(0.05em);
-}
+
 
 
 header {
@@ -46,6 +44,15 @@ main{text-align: center;max-width: 60em;
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+	img[data-src] {
+		filter: blur(0.05em);
+	}
+	img {
+		padding: 2px;
+		border: 1px solid black;
+		filter: blur(0em);
+		transition: filter 2s;
+	}
 
 	main picture.photoa img, main picture.photob img{width:100%;}
 
