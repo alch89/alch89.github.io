@@ -6,6 +6,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Small/Phone View ***************/
 main{text-align: center;}
+img[data-src] {
+	filter: blur(0.05em);
+}
+
 footer{text-align: center;}
 section#contact .flexwrapper {
     display: flex;
