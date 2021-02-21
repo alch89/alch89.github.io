@@ -14,17 +14,11 @@
 		box-shadow: 0 0 30px #777777;
 
 	}
-	picture img[data-src] {
-		filter: blur(10px);
-		transition: filter .5s;
-	}
-	img{
-		filter: blur(0);
-  transition: filter .5s;
 
-	}
-	section#gallery {
-		grid-template-columns: 1fr 1fr;
-	}
+	.column {
+		flex: 33.3%;
+		max-width: 33.3%;
+	  }
+
 	
 } /*end medium */

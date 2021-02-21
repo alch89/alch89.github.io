@@ -6,8 +6,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Small/Phone View ***************/
 main{text-align: center;}
-
-
 footer{text-align: center;}
 section#contact .flexwrapper {
     display: flex;
@@ -87,21 +85,12 @@ nav ul li.active a{background-color: rgb(0, 0,0, 0.2);color: #fff}
 
 nav ul li a:hover{	background-color: rgb(0, 0,0, 0.4);}
 nav ul.hide {display: none;}
-img[data-src] {
-	filter: blur(0.05em);
-}
-picture img {
-	padding: 2px;
-	filter: blur(0);
-	transition: filter .5s;
-}
-section#gallery {
-    background-color: transparent;
-    box-shadow: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
-}
+
+.column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
