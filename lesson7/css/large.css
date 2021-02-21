@@ -39,12 +39,20 @@ main{text-align: center;max-width: 60em;
     flex: 20%;
     max-width: 200%;
 }
+.column img{
+
+	transition: filter .5s;
+}
 
 /* Larger viewports */
 
 
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+
+	picture img:hover {
+		box-shadow: 0 0 50px #333;
+	}
 
 	.row {
 		display: flex;
