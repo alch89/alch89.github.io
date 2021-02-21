@@ -14,4 +14,8 @@
 		box-shadow: 0 0 30px #777777;
 
 	}
+	img[data-src] {
+		filter: blur(0.05em);
+	}
+	
 } /*end medium */

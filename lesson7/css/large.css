@@ -4,6 +4,10 @@ body {
 	margin: 0;
 	font-family: Lora, Geneva, Tahoma, sans-serif;
 }
+img[data-src] {
+	filter: blur(0.05em);
+}
+
 
 header {
 	background-color: #fff;
