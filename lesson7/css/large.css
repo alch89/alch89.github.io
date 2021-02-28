@@ -35,14 +35,7 @@ main{text-align: center;max-width: 60em;
 	font-size: .9rem;
 }
 
-.column {
-    flex: 20%;
-    max-width: 200%;
-}
-.column img{
 
-	transition: filter .5s;
-}
 
 /* Larger viewports */
 
@@ -50,15 +43,25 @@ main{text-align: center;max-width: 60em;
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-	picture img:hover {
-		box-shadow: 0 0 50px #333;
-	}
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0 4px;
 	  }
+	.column {
+		flex: 20%;
+		max-width: 200%;
+	}
+	.column img{
+	
+		transition: filter .5s;
+	}
+
+	picture img:hover {
+		box-shadow: 0 0 50px #333;
+	}
+
+	
 	  
 
 	  
