@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: hsl(230, 25%, 90%);
+  }
+  
+  main {
+    margin: 0.5em auto;
+  }
+  
+  header,
+  footer {
+    text-align: center;
+    background-color: hsl(210, 50%, 30%);
+    color: white;
+  }
+  
+  header {
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+  }
+  
+  footer {
+    padding: 1em;
+  }
+  
+  h1,
+  h2 {
+    font-family: "Aller", sans-serif;
+  }
+  
+  main h2 {
+    color: hsl(210, 50%, 30%);
+  }
+  
+  .cards section {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5px;
+  }
+  
+  .cards section p {
+    margin: 0.5em auto;
+  }
+  
+  .cards section img {
+    max-width: 50%;
+    margin: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media (min-width: 36em) {
+    main {
+      max-width: 42em;
+      margin: 0 auto;
+    }
+  
+    .cards {
+      margin: 0.5em;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(260px, 1fr));
+      grid-gap: 0.5em;
+    }
+  
+    .cards section {
+      margin-bottom: 0;
+    }
+  
+    .cards section img {
+      max-width: 80%;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    main {
+      max-width: 70em;
+    }
+  
+    .cards {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
