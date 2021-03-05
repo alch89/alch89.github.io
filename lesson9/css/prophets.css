@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
     background-color: hsl(230, 25%, 90%);
   }
   
@@ -11,7 +11,7 @@ body {
   header,
   footer {
     text-align: center;
-    background-color: hsl(210, 50%, 30%);
+    background-color: hsl(238deg 38% 56%);
     color: white;
   }
   
