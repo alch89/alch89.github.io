@@ -1,11 +1,3 @@
-WebFont.load({
-    google: {
-      families: ["Lato"],
-    },
-    typekit: {
-      families: ["Aller"],
-    },
-  });
   
   const requestURL =
     "https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json";
