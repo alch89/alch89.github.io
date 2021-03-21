@@ -48,21 +48,57 @@
         </ul>
     </nav>
     <main>
-        <section id="section1">
-            <h2>Hero image/weather summary</h2>
+        <h1>Home Page</h1>
+        <section id="hero">
+          <!-- <img src="images/hero-placeholder.jpg" alt="Decorative landscape image" /> -->
+          <picture>
+            <source srcset="images/hero-768.jpg" media="(min-width: 520px) and (max-width: 1023px)">
+            <source srcset="images/hero-832.jpg" media="(min-width: 1024px)">
+            <img src="images/hero-507.jpg" alt="Sky">
+          </picture>
         </section>
-        <section  id="section2">
-            <h2> 5 day forecast</h2>
+  
+        <section id="event">
+          <h2>Great Potato Parade</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+            quisquam soluta earum doloremque, sint fuga voluptate non optio
+            possimus, laudantium nobis suscipit perspiciatis quis. Fugiat, placeat
+            autem labore, a voluptate nisi iure quae ducimus consequuntur
+            veritatis nesciunt, hic nostrum alias. Vero velit natus atque qui
+            tenetur ut esse molestiae veniam!
+          </p>
         </section>
-        <section id="section3">
-            <h2>Article</h2>
+  
+        <div id="towns">
+          <section id="preston"><div><div><h2>Preston</h2><p class="motto">Home of Napoleon Dynamite.</p></div><div><p>Year Founded: 1866</p><p>Current Population: 5204</p><p>Average Rainfall: 16.65</p></div></div><img src="images/towns/preston.jpg" alt="Preston"></section>
+          <section id="soda-springs"><div><div><h2>Soda Springs</h2><p class="motto">Historic Oregon Trail Oasis. The Soda is on Us.</p></div><div><p>Year Founded: 1858</p><p>Current Population: 2985</p><p>Average Rainfall: 15.75</p></div></div><img src="images/towns/sodasprings.jpg" alt="Soda Springs"></section>
+          <section id="fish-haven"><div><div><h2>Fish Haven</h2><p class="motto">This is Fish Heaven.</p></div><div><p>Year Founded: 1864</p><p>Current Population: 501</p><p>Average Rainfall: 14.2</p></div></div><img src="images/towns/fishhaven.jpg" alt="Fish Haven"></section>
+        </div>
+  
+        <section id="contact">
+          <h2>Contact Information</h2>
+          <div class="flexwrapper">
+            <img src="images/map-placeholder.jpg" alt="Map">
+            <section>
+              <p>
+                <b>Tri-City Weather</b><br>
+                <img src="images/social/location.svg" alt="Location">
+                30 N 1st E<br>
+                Preston, ID 83263
+              </p>
+              <p>
+                <img src="images/social/phone.svg" alt="Phone">(555) 555-5555<br>
+                <img src="images/social/email.svg" alt="Email">contact@<wbr>thetricityweather.com
+              </p>
+              <p>
+                <a href="https://facebook.com"><img src="images/social/facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="images/social/twitter.svg" alt="Twitter"></a>
+              </p>
+            </section>
+          </div>
         </section>
-        <section id="section4">
-            <h2>Contact Information</h2>
-        </section>
-        
-        
-    </main>
+      </main>
     <footer> © <span id="currentyear">2021</span> | Luis Chavez Velarde | Lima, Peru | <a href="https://byui.edu/online">BYU-Idaho Online Learning</a><br>
         <div id="updated">Last Updated: <span id="lastModif"></span></div>
        </footer>
