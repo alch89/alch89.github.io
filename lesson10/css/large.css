@@ -155,6 +155,7 @@ nav ul.hide{display: block;}
 		flex-direction: row;
 		justify-content: space-between;
 		gap: 1em;
+		padding-top: 1em;
 	}
 
 	div#towns section{
