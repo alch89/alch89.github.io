@@ -150,6 +150,27 @@ nav ul.hide{display: block;}
 		width: 100%;
 	}
 
+	div#towns {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 1em;
+	}
+
+	div#towns section{
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+
+	div#towns section, div#towns section:nth-child(even) {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	div#towns section img {
+		max-width: 100%;
+		height: auto;
+	}
+
 } /*end large */
 
 

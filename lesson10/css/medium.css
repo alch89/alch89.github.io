@@ -14,6 +14,11 @@
 		box-shadow: 0 0 30px #777777;
 
 	}
+	div#towns section {
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 1em;
+	}
 	
 }
  /*end medium */
