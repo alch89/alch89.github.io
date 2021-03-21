@@ -131,7 +131,11 @@ nav ul li a{
 
 }
 
-nav ul.hide{display: block;}
+nav ul.hide{display: block;
+	text-align: center;
+    max-width: 60em;
+    margin: auto;
+}
 .row {
 	display: flex;
 	flex-wrap: wrap;
