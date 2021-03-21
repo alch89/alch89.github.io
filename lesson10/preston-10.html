@@ -22,7 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap" rel="stylesheet">
   --></head>
 
-  <body>
+  <body id="city-page" data-city="preston">
     <header>
         <picture>
             <img src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-05-512.png" alt="The world logo">
@@ -55,7 +55,7 @@
         <p>Max: <span id="max-temp"></span> °F / Min <span id="min-temp"></span>°F </p>
         <p>Humidity: <span id="humidity"></span></p>
         <p>Wind Speed: <span id="wind"></span> mph</p>
-        <p>Wind Chill: <span id="windchill"></span> °F</p>
+        <p>Wind Chill: <span id="windchill"></span> </p>
     </section>
 <picture class="photoa">
 
@@ -111,16 +111,10 @@
     </table>
   </section>
 
-  <section id="event">
-    <h2>Great Potato Parade</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-      quisquam soluta earum doloremque, sint fuga voluptate non optio
-      possimus, laudantium nobis suscipit perspiciatis quis. Fugiat, placeat
-      autem labore, a voluptate nisi iure quae ducimus consequuntur
-      veritatis nesciunt, hic nostrum alias. Vero velit natus atque qui
-      tenetur ut esse molestiae veniam!
-    </p>
+  
+  
+  <section id="events">
+   
   </section>
 
   <div id="towns">
@@ -204,6 +198,7 @@
        <script src="js/currentdate.js"></script>  
     <script src="js/toggleMenu.js"></script> 
     <script src="js/apicall.js"></script>
+    <script src="js/events.js"></script>
     
 
 
