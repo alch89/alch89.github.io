@@ -1,0 +1,25 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+	header picture img {
+		width: 140px;
+	}
+
+	.weathersummary{
+		position: absolute;
+		background-color: #eeeeee;
+		background: radial-gradient(green,lightgreen,blue,0.3);
+		border: 1px solid green;
+		padding: .5rem;
+		box-shadow: 0 0 30px #777777;
+
+	}
+	div#towns section {
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 1em;
+		padding-top: 1em;
+	}
+	
+}
+ /*end medium */

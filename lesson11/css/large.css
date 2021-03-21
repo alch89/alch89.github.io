@@ -1,0 +1,199 @@
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+	font-family: Lora, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+main{text-align: center;max-width: 60em;
+    margin: auto;}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+	font-family: Montserrat;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: forestgreen;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+
+
+/* Larger viewports */
+
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+
+	
+
+	main picture.photoa img, main picture.photob img{width:100%;}
+
+	main > section { max-width: 60em;
+		margin: auto;
+		background-color: #fff;
+		/* border: 2px dotted #999; */
+		box-shadow: 0 1px 1px rgb(0 0 0 / 25%);
+		padding-bottom: 1em;
+		display: block;
+	}
+	section#fiveday table {
+		margin: 0 auto;
+	}
+	section#article img {
+		float: right;
+		margin: 0 1em;
+	}
+	section#contact .flexwrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+	}
+	section#contact p img {
+		vertical-align: middle;
+		margin-right: 0.25em;
+		height: 1.25em;
+		width: auto;
+	}
+	section#contact p {
+		text-align: left;
+		line-height: 1.5;
+		margin: 0.5em;
+	}
+	main .h2{
+		text-align: center;
+		}
+	
+		.herodiv {
+			margin: 10px auto;
+			position: relative;
+			
+			width: 960px;
+			height: 300px;
+			background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=960');
+	
+		}
+	.hero-ph{
+		margin: 10px auto;
+		
+		
+		width: 100%;
+		height: 250px;
+	}
+	
+	.weathersummary{
+		position: absolute;
+		
+		background-color: #eeeeee;
+		background: radial-gradient(green,lightgreen,blue,0.3);
+		border: 1px solid green;
+		padding: .5rem;
+		box-shadow: 0 0 30px #777777;
+
+	}
+
+	footer{text-align: center;}
+
+	header picture img {
+		width: 180px;
+		height: auto;
+	}
+
+	nav button{display: none;}
+nav ul{margin: 2%;}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	border: none;
+	border-right: 1px solid rgba(0,0, 0, 0.3);
+	padding: .6rem 1rem;
+
+}
+
+nav ul.hide{display: block;
+	text-align: center;
+    max-width: 60em;
+    margin: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;}
+
+	.column {
+		flex: 20%;
+		max-width: 200%;
+	}
+
+
+
+	.column img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	div#towns {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 1em;
+		padding-top: 1em;
+	}
+
+	div#towns section{
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+
+	div#towns section, div#towns section:nth-child(even) {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	div#towns section img {
+		max-width: 100%;
+		height: auto;
+	}
+
+} /*end large */
+
+
+@media only screen and (min-width: 32.5em) {
+
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+}
+
+

@@ -1,0 +1,169 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Small/Phone View ***************/
+main{text-align: center;}
+footer{text-align: center;}
+section#contact .flexwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+section#fiveday table {
+    margin: 0 auto;
+}
+h2 {
+    padding: 0.5em;
+}
+section#contact p {
+    text-align: left;
+    line-height: 1.5;
+    margin: 0.5em;
+}
+section#contact p img {
+    vertical-align: middle;
+    margin-right: 0.25em;
+    height: 1.25em;
+    width: auto;
+}
+section#contact .flexwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+main > section {
+    background-color: #fff;
+    /* border: 2px dotted #999; */
+    box-shadow: 0 1px 1px rgb(0 0 0 / 25%);
+    padding-bottom: 1em;
+}
+
+header picture img {
+    width: 60px;
+    height: auto;
+}
+
+nav button{
+	margin: .2rem 2%;
+	background-color: transparent;
+	border:none;
+	font-size: 1.6rem;
+	color: #555555;
+
+
+}
+
+nav {
+	
+	background-color: #ccc;
+	font-family: Acme, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+	}
+
+
+nav ul li a{
+	display: block;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color: #000000;
+	border-top: 1px solid rgb(0, 0,0, 0.3);
+
+}
+
+
+div#towns section {
+    display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 25%);
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+/*the active goes first to make the effect to work*/
+nav ul li.active a{background-color: rgb(0, 0,0, 0.2);color: #fff}
+
+nav ul li a:hover{	background-color: rgb(0, 0,0, 0.4);}
+nav ul.hide {display: none;}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  form fieldset {
+    box-sizing: border-box;
+    margin: 2rem 0;
+    border-color: rgb(57, 64, 97)
+    border-radius: 10px;
+    padding: .5rem 3%;
+}
+
+form {
+    text-align: left;
+	display: block;
+}
+
+form label.above, form div {
+    display: block;
+    margin-top: 1em;
+}
+
+form label.above input{
+    display: block;
+    width: 100%;
+    max-width: 20em;
+    padding: 0.5em;
+}
+
+
+
+
+
+
+/*.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+
+.responsive li {
+	display: block;
+}
+*/
