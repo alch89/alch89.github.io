@@ -1,0 +1,46 @@
+{
+    "businesses": [
+      {
+        "name": "Delfino Lomas",
+        "address": "Panamericana Norte Km. 77.5 s/n (En El Grifo Delpino Alt. De Las Salinas) - Chancay",
+        "tel": "(01) 3772721",
+        "weblink": "http://lomasdelpino.com/",
+        "logo": "delfino-logo.gif"
+      },
+      {
+        "name": "Mcdonalds",
+        "address": "Centro Comercial Mega Plaza, Av. Globo Terráqueo 2698",
+        "tel": "(01) 7173474",
+        "weblink": "https://www.mcdonalds.com.pe/",
+        "logo": "mcdonalds-logo.png"
+      },
+      {
+        "name": "Los Sauces hotel",
+        "address": "Jiron Camilo Carrillo 465 Jesus Maria - Lima",
+        "tel": "(01) 4333640",
+        "weblink": "www.hostal-lossauces.com",
+        "logo": "lossauces.gif"
+      },
+      {
+        "name": "Greciaspa",
+        "address": "Calle Las Cascadas 331 La Molina - Lima",
+        "tel": "(01) 4953041",
+        "weblink": "https://greciaspa.com/",
+        "logo": "greciaspa.jpg"
+      },
+      {
+        "name": "Dr. Antonio Astocondor",
+        "address": "Avenida Venezuela 704 Of. 203 Breña - Lima",
+        "tel": "(01) 4335763",
+        "weblink": "www.antonioastocondors.com",
+        "logo": "drantonio-logo.gif"
+      },
+      {
+        "name": "Inversiones Karmelay",
+        "address": "Avenida German Aguirre 1111 San Martin de Porres - Lima",
+        "tel": "(01) 3098168",
+        "weblink": "www.inversioneskarmelay.com",
+        "logo": "inversiones.jpg"
+      }
+    ]
+  }

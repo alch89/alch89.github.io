@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directory - Provo Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="Member Directory - Spotlighted members of the Provo City Chamber of Commerce"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body data-page="directory">
+    <header>
+        <img src="images/logos/logochamber.png" alt="Site logo" />
+        <div>
+          <h1>Macchu Picchu Chamber</h1>
+          <p> Busineses & Networking</p>
+        </div>
+        <button id="nav-button" onclick="navMenu()">&equiv;</button>
+      </header>
+
+    <nav id="nav-menu" class="hidden">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-lima.html">About Lima</a></li>
+        <li class="current"><a href="#">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <span class="bizt"><h2>Directory of Participating Businesses</h2></span>
+
+      <div id="dir-displaymode">
+        <span id="list" class="current" onclick="directoryDisplay('list')"
+          ><img src="images/view-list.svg" alt="List view"
+        /></span>
+        <span id="grid" class="" onclick="directoryDisplay('grid')"
+          ><img src="images/view-grid.svg" alt="Grid view"
+        /></span>
+      </div>
+      <div id="directory" class="list">
+      </div>
+    </main>
+    <footer>
+        <div class="info">
+          <h2>Contact Us</h2>
+          <p> Av Giuseppe Garibaldi 396, Jesús María 15072 Lima - Perú
+          </p>
+          <p> (511) 463-3434 </p>
+          <p> https://www.camaralima.org.pe/</p>
+        </div>
+        <div class="social">
+          <p><a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+              <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            </p>
+            <div id="updated">Last Updated: <span id="lastModif"></span> <span id="currentyear"></span></div>
+        </div>
+        
+         
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/lazyload.js"></script>
+      <script src="js/liga.js"></script>
+      <script src="js/currentdate.js"></script>
+    
+  </body>
+</html>

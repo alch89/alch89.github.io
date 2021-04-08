@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us - Provo Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="Membership Application - Provo City Chamber of Commerce"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body data-page="join">
+    <header>
+        <img src="images/logos/logochamber.png" alt="Site logo" />
+        <div>
+          <h1>Macchu Picchu Chamber</h1>
+          <p> Busineses & Networking</p>
+        </div>
+        <button id="nav-button" onclick="navMenu()">&equiv;</button>
+      </header>
+
+    <nav id="nav-menu" class="hidden">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-lima.html">About Lima</a></li>
+        <li><a href="directory-business.html">Directory</a></li>
+        <li class="current"><a href="#">Join</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+        <span class="bizt"><h2>Join the Chamber of Commerce</h2></span> 
+
+      <section class="col-g">
+        <h2>Non-Profit ($100)</h2>
+        <p>
+            You will be able to present your offers of products and services and interrelation with other associated companies. Monthly
+        </p>
+        <p>
+            You can place the LOGO of your company within our institutional website - Section "Directory of
+            Associates
+        </p>
+        <p>
+            ADVICE IN DIGITAL MARKETING, on marketing strategies to use in your company. Wednesday (3pm to 5pm)
+        </p>
+        <button class="buttoncta"type="button" onClick="document.getElementById('join-form').scrollIntoView();"> Join today! </button>
+      </section>
+
+      <div id="home-ads" class="col-none">
+        <section class="col-g">
+          <div>
+            <h2>  Bronze ($200)
+            </h2>
+            <p>
+                BUSINESS CONSULTANCY, online consultations via Zoom, also by phone or email.
+ 
+                LEGAL ADVICE: in business matters, such as tax, labor, commercial contracts, corporate,
+                public procurement, consumer protection, intellectual property, business formalization, among others.
+                Monday to Friday
+                (8:30 a.m. to 5:00 p.m.)
+            </p>
+            <button class="buttoncta"type="button" onClick="document.getElementById('join-form').scrollIntoView();"> Join today! </button>
+          </div>
+        
+        </section>
+        <section class="col-g">
+          <div>
+            <h2>Silver ($400)</h2>
+            <p>
+                ADVICE ON CONTRACTS WITH THE STATE, requirements and advice as to Provide the State. Tuesday and Thursday
+                (3pm to 5pm)
+                ADVICE IN DIGITAL MARKETING, on marketing strategies to use in your company. Wednesday (3pm to 5pm)
+                FINANCIAL AND CREDIT CONSULTANCY. Tuesday (3pm to 5pm)
+                Participation in the SECTOR WORKING GROUP - brings together companies from the same economic segment, whose
+                The goal is to identify your common problems and seek joint solutions.
+                Free for the first 6 months of your membership
+            </p>
+            <button class="buttoncta"type="button" onClick="document.getElementById('join-form').scrollIntoView();"> Join today! </button>
+          </div>
+         
+        </section>
+        <section class="col-g">
+          <div>
+            <h2>Gold ($1000)</h2>
+            <p>
+                BUSINESS CONSULTANCY, online consultations via Zoom, also by phone or email.
+ 
+                LEGAL ADVICE: in business matters, such as tax, labor, commercial contracts, corporate,
+                public procurement, consumer protection, intellectual property, business formalization, among others.
+                Monday to Friday
+                (8:30 a.m. to 5:00 p.m.)
+                FOREIGN TRADE ADVISORY: in imports / exports and processes related to foreign trade:
+                Customs procedures, logistical procedures, legal and tax solutions, contracts, among others.
+                Monday to Friday
+                (8:30 a.m. to 4:00 p.m.)
+                SPECIALIZED ADVICE: online consultations via Zoom
+            </p>
+            <button class="buttoncta"type="button" onClick="document.getElementById('join-form').scrollIntoView();"> Join today! </button>
+          </div>
+         
+        </section>
+      </div>
+
+      <section id="join-form" class="col-w">
+        <h2>Application Form</h2>
+        <form action="join-thanks.html" method="get">
+
+          <p><em>Inputs marked with * are required.</em></p>
+          <fieldset>
+            <legend>
+              Membership Level
+              <span id="level-key-button" onclick="toggleLevelKey()">?</span>
+            </legend>
+          
+            <label class="side"
+              ><input type="radio" name="level" value="yes" />&nbsp;Non-Profit
+              ($100)</label
+            >
+            <label class="side"
+              ><input type="radio" name="level" value="yes" />&nbsp;Bronze
+              ($200)</label
+            >
+            <label class="side"
+              ><input type="radio" name="level" value="yes" />&nbsp;Silver
+              ($400)</label
+            >
+            <label class="side"
+              ><input type="radio" name="level" value="yes" />&nbsp;Gold
+              ($1000)</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label class="above"
+              >First Name *<input type="text" name="fname" required
+            /></label>
+            <label class="above"
+              >Last Name *<input type="text" name="lname" required
+            /></label>
+            <label class="above">Title<input type="text" name="title" /></label>
+            <label class="above"
+              >Email *<input
+                type="email"
+                name="email"
+                placeholder="owner@example.com"
+                required
+            /></label>
+            <label class="above"
+              >Cell Phone Number<input type="tel" name="tel" required
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Business Information</legend>
+            <label class="above"
+              >Business Name *<input type="text" name="b-name" required
+            /></label>
+            <label class="above"
+              >Business Address<input type="text" name="b-address"
+            /></label>
+            <label class="above"
+              >Business Website<input type="url" name="b-site"
+            /></label>
+            <label class="above"
+              >Business Description
+              <textarea name="b-description" cols="30" rows="10"></textarea>
+            </label>
+          </fieldset>
+
+         
+
+          <input type="submit" class="submit" value="Apply to Join" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+        <div class="info">
+          <h2>Contact Us</h2>
+          <p> Av Giuseppe Garibaldi 396, Jesús María 15072 Lima - Perú
+          </p>
+          <p> (511) 463-3434 </p>
+          <p> https://www.camaralima.org.pe/</p>
+        </div>
+        <div class="social">
+          <p><a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+              <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            </p>
+            <div id="updated">Last Updated: <span id="lastModif"></span> <span id="currentyear"></span></div>
+        </div>
+        
+         
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/lazyload.js"></script>
+      <script src="js/liga.js"></script>
+      <script src="js/currentdate.js"></script> 
+  </body>
+</html>

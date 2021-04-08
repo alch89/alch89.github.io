@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Provo Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="Contact the Provo City Chamber of Commerce - Board members and roles, Local map, Contact information and form"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body data-page="contact">
+    <header>
+        <img src="images/logos/logochamber.png" alt="Site logo" />
+        <div>
+          <h1>Macchu Picchu Chamber</h1>
+          <p> Busineses & Networking</p>
+        </div>
+        <button id="nav-button" onclick="navMenu()">&equiv;</button>
+      </header>
+
+    <nav id="nav-menu" class="hidden">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-lima.html">About Lima</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li class="current"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <span class="bizt"><h2>Contact Us</h2></span>
+
+      <section class="col-g">
+        <h2>Board of Directors</h2>
+        <div id="board-list">
+          <div>
+            <img src="images/Antonio Banderas.png" alt="Antonio Banderas" />
+            <p>
+              <strong>Antonio Banderas</strong> <br /><em>Director</em>
+               
+            </p>
+          </div>
+          <div>
+            <img src="images/Maria Dolores.jpg" alt="Maria Dolores" />
+            <p>
+              <strong>Maria Dolores</strong> <br /><em>Marketing Manager</em>
+              
+            </p>
+          </div>
+          <div>
+            <img src="images/Mario Salazar.jpg" alt="Mario Salazar" />
+            <p>
+              <strong>Mario Salazar</strong> <br /><em>CTO </em>
+              
+            </p>
+          </div>
+          <div>
+            <img src="images/Jorge-garcia.jpg" alt="Jorge Garcia" />
+            <p>
+              <strong>Jorge Garcia</strong> <br /><em
+                >Coordinator 
+             
+            </p>
+          </div>
+        </div>
+      </section>
+
+    
+    
+
+      <section id="contact-form" class="col-w">
+        <h2>Get in Touch</h2>
+        <form action="contact-thanks.html" method="get">
+          <p><em>Inputs marked with * are required.</em></p>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label class="above"
+              >Full Name *<input type="text" name="name" required
+            /></label>
+            <label class="above"
+              >Phone Number *<input type="tel" name="tel" required
+            /></label>
+            <label class="above"
+              >Email *<input type="email" name="email" required
+            /></label>
+            <label class="above"
+              >Comment *
+              <textarea name="comment" cols="30" rows="10" required></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" class="submit" value="Get in Touch" />
+        </form>
+      </section>
+      <section class="col-b">
+        <h2>Map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.41175732668!2d-77.05382678475266!3d-12.083939091442602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ff27f6f135%3A0xe67839ff8f3993e6!2sCamara%20De%20Comercio%20De%20Lima!5e0!3m2!1sen!2sus!4v1617856447629!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+    </main>
+
+    <footer>
+        <div class="info">
+          <h2>Contact Us</h2>
+          <p> Av Giuseppe Garibaldi 396, Jesús María 15072 Lima - Perú
+          </p>
+          <p> (511) 463-3434 </p>
+          <p> https://www.camaralima.org.pe/</p>
+        </div>
+        <div class="social">
+          <p><a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+              <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            </p>
+            <div id="updated">Last Updated: <span id="lastModif"></span> <span id="currentyear"></span></div>
+        </div>
+        
+         
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/lazyload.js"></script>
+      <script src="js/liga.js"></script>
+      <script src="js/currentdate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/liga.js"></script>
+  </body>
+</html>
